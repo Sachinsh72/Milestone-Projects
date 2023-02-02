@@ -135,6 +135,7 @@ footer{
     align-items: center;
     justify-content: space-around;
     padding: 20px 0;
+    padding-right: 35px ;
 }
 
 footer p{
@@ -142,9 +143,11 @@ footer p{
 }
 
 footer ul{
+    font-size: 22px;
     display: flex;
     align-items: center;
-    gap: 30pxs;
+    gap: 30px;
+    
 }
 
 footer ul li a i:hover{
