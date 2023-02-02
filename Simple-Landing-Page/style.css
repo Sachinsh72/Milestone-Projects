@@ -1,3 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: brown;
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: rgb(235, 218, 218);
+    padding: 4px 10px;
+    cursor: pointer;
+    border: 1px solid brown;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+}
+
+button:hover{
+    background-color: plum;
+    color: black;
+    border: 1px solid blueviolet;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    
+}
+
+nav .logo{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.search{
+    display: flex;
+    gap: 10px;
+}
+
+input{
+    padding: 4px 10px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-left h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.main-left h1 span{
+    color: rgb(196, 144, 241);
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.main-left p{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.main-left p span{
+    font-weight: 600;
+    font-size: 28px;
+    color:rgb(196, 144, 241);
+}
+
+.main-right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main-right-btn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-right img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+footer p{
+    font-weight: 600;
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 30pxs;
+}
+
+footer ul li a i:hover{
+text-align: center;
 }
