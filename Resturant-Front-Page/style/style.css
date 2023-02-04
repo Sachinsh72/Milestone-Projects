@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: blue; */
+    overflow: hidden;
+}
+
+body{
+    background-image: url("img.png");
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: yellow;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+
+}
+button{
+    background-color: #ff505f;
+    border: none;
+    padding: 10px 20px;
+    font-style: normal;
+    color: #ffffff;
+    cursor: pointer;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav div img{
+    height: 40px;
+    width: 100px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    gap: 60px;
+    list-style: none;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+main div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main div h1{
+    font-size: 70px;
+    font-weight: 900;
+    list-style: none;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+footer div img{
+    padding-top: 10px;
+    height: 110px;
+    width: 110px;
+}
+
+
+
+
+
