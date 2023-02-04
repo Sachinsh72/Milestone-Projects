@@ -1,9 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     box-sizing: border-box;
-    background-color: aqua;
+    background-color: #f9f5ed;
     font-family: 'Dancing Script', cursive;
     font-family: 'Lobster', cursive;
     font-family: 'Poppins', sans-serif;
@@ -40,7 +40,7 @@ main{
 }
 
 .main-left{
-    width: 40%;
+    margin-left: 15%;
 }
 
 .main-left h1{
@@ -52,7 +52,7 @@ main{
 }
 
 button{
-    background-color: rgb(122, 36, 36);
+    background-color: #3b855b;
     color: white;
     padding: 8px 10px;
     cursor: pointer;
@@ -62,18 +62,20 @@ button{
     width: fit-content;
 }
 
-button:hover{
-    background-color: plum;
-    color: black;
-    border: 1px solid blueviolet;
+.main-right{
+    padding: 7%;
 }
 
-/* s */
-
-/* .main-right div img{
+.main-right div img{
     width: 30%;
-} */
+}
 
-/* .main-right div img:first-child{
-    margin-right: 20px;
-} */
+.main-right div{
+    margin-bottom: 20px;
+}
+
+.main-right > img{
+    width: 60%;
+}
+
+
