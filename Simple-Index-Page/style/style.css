@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: green; */
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    width: 100%;
+    height: 10vh;
+}
+
+section nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 550px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 322px;
+    gap: 15px;
+}
+
+section nav ul li{
+    list-style: none;
+}
+
+section nav div img{
+    width: 140px;
+    height: 50px;
+}
+
+button{
+    background-color: #ff505f;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.main-left button{
+    background-color: blueviolet;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 10px;
+    color: white;
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+main div{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.main-left{
+    display: flex;
+    flex-direction:column;
+    width: 45%;
+    align-items: start;
+    justify-content: center;
+    padding-left: 180px;
+    gap: 18px;
+}
+.line{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 20px;
+    color: blue;
+}
+.main-left p{
+    font-size: 8px;
+}
+
+span{
+    color:blueviolet;
+}
+
+.main-right{
+    width: 60%;
+    height: 100%;
+}
+
+.main-right img{
+    padding-right: 150px ;
+    width: 600px;
+    height: 400px;
+}
