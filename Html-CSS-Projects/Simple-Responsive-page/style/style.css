@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(13, 13, 72);
+}
+
+                     /* All Imgaes  */
+
+.hambrger img{
+    height: 20px;
+    width: 20px;
+}
+
+.hello-1 img{
+    height: 20px;
+    width: 20px;
+}
+
+.right-up-container img{
+    height: 300px;
+    width: 350px;
+}
+
+
+.img-box img{
+    height: 100px;
+    width: 100px;
+}
+
+.foot-img img{
+    height: 20px;
+    width: 20px;
+}
+
+                         /* All Content  */
+
+/* Navigation */
+
+.hambrger{
+    display: none;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    padding: 12px;
+}
+
+.nav-left{
+    width: 300px;
+    color: white;
+}
+
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.home{
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    height: 20px;
+    width: 50px;
+    text-align: center;
+}
+
+/* Main */
+
+.up-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.down-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer  */
+
+.foot-head{
+    text-align: center;
+}
+
+.foot-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
