@@ -105,3 +105,12 @@ p{
     color: white;
     background-color: rgb(35, 33, 33);
 }
+
+.logo-row{
+    width: 80%;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
