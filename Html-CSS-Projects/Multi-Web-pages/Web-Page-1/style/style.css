@@ -106,6 +106,7 @@ p{
     background-color: rgb(35, 33, 33);
 }
 
+/* Logo Row */
 .logo-row{
     width: 80%;
     display: flex;
@@ -114,3 +115,86 @@ p{
     align-items: center;
     justify-content: space-around;
 }
+
+/* Specs Card */
+
+.specs-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+.specs-card-img img{
+    height: 60px;
+    width: 200px;
+}
+
+.specs{
+    display: flex;
+    
+}
+
+.specs-cards-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    color: white;
+    
+}
+
+.specs-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.specs-info img{
+    height: 20px;
+    width: 20px;
+}
+
+.first-fourth{
+    padding-left: 50px;
+    
+
+}
+
+/* Case Card */
+
+.case-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.case-card-img{
+    height: 60px;
+    width: 200px;
+}
+
+.case img{
+    height: 350px;
+}
+
+.case{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 30px;
+    color: white;
+}
+
+.right-case{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
