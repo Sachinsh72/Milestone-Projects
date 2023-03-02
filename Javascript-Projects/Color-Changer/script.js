@@ -7,3 +7,5 @@ const randomColor = () =>{
     }
     return cons;
 };
+
+console.log(randomColor);
