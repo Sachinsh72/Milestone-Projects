@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: palegreen;
-    /* background-color: black; */
+    /* background-color: palegreen; */
+    background-color: black;
 }
 
                                 /* Top Section  */
@@ -226,14 +226,108 @@ p{
     color: white;
 }
 
+.buy-info h3{
+    background-color: transparent;
+}
+
+.buy-info p{
+    background-color: transparent;
+}
+
+
+
 .buy-pic{
     width: 40%;
 }
 
 .buy-pic img{
-    background-color:  rgb(32, 31, 31);
+    background-color: transparent;
     height: 160px;
     width: 220px;
     margin-right: 90px;
     margin-bottom: 40px;
 }
+
+/* Choose your style  */
+
+.style{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin: 0 150px; */
+    gap: 60px;
+}
+
+.style-set-1{
+    margin-top: 20px;
+    display: flex;
+    height: 100px;
+    gap: 20px;
+}
+
+.style-set-2{
+    margin-top: 20px;
+    display: flex;
+    height: 100px;
+    gap: 20px;
+}
+
+.style-set-3{
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    width: 280px;
+    gap: 20px;
+}
+
+
+
+.style-card{
+    position: relative;
+  width: 130px;
+  height: 130px;
+  background: #181a1b;
+  border-radius: 8px;
+}
+
+.style-info{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+  
+}
+
+.style-card img{
+    width: 75px;
+    height: 100px;
+    position: absolute;
+    top: -40px;
+    left: 28px;
+    background-color: transparent;
+  
+}
+
+.style-info img{
+    margin-top: 55px;
+    margin-left: 50px;
+    width: 20px;
+    height: 20px;
+    background: #0a0a0b;
+    border-radius: 8px;
+    padding: 2px 6px;
+  
+}
+
+.style-info p{
+    background-color: transparent;
+}
+
