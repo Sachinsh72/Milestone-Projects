@@ -331,3 +331,88 @@ p{
     background-color: transparent;
 }
 
+
+/* Footer  */
+
+
+
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+}
+
+footer div{
+    width: 30%;
+}
+footer div img{
+    height: 20px;
+    width: 20px;
+}
+
+.footdiv2{
+    width: 30%;
+}
+
+.footdiv3{
+    width: 30%;
+}
+
+.footdiv2 h3{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.footdiv2 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footdiv3 h3{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.footdiv3 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footdiv4{
+    width: 30%;
+}
+
+.footdiv4{
+    display: flex;
+    flex-direction: column;
+}
+
+.footdiv4 div{
+    width: 300px;
+    height: 35px;
+    background-color: #1f1f20;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footdiv4 div span{
+    color: white;
+    background-color: transparent;
+}
+
+.email-sus{
+    height: 20px;
+    width: 200px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
