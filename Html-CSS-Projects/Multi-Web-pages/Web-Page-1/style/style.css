@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     /* background-color: palegreen; */
-    background-color: rgb(12, 12, 12);
+    /* background-color: rgb(12, 12, 12); */
+    background: #0f0f10;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
 }
 
                                 /* Top Section  */
@@ -69,7 +72,7 @@ li{
 
 .article img{
     padding-left: 50px;
-    
+    padding-top: 50px;
     
 }
 .article-summary{
@@ -77,32 +80,30 @@ li{
     flex-direction: column;
     align-items: start;
     width: 65%;
-  font-size: 12px;
-  font-weight: 300;
-  color: #bdc0c2;
-  line-height: 25px;
-  margin-bottom: 25px;
+    color: #bdc0c2;
+    line-height: 25px;
 }
 
 .article-summary h1{
     font-size: 50px;
+    margin-top: 20px;
+    margin-bottom:25px; ;
 }
 
 .article-summary h4{
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 30px;
+    padding-bottom: 30px;
 }
 
 p{
-    font-size: 14px;
-    padding: 10px;
+    font-size: 12px;
     align-items: start;
 }
 
 
 .article-btn{
     display: flex;
-    /* padding-top: 10px; */
     align-items: center;
     font-size: 15px;
     text-align: left;
@@ -110,6 +111,7 @@ p{
     border-radius: 8px;
     color: white;
     background-color: rgb(35, 33, 33);
+    margin-top: 15px;
 }
 
 .article-btn img{
@@ -119,17 +121,19 @@ p{
 
 .article-btn h3{
     background-color: transparent;
-    padding: 4px;
+    font-size: 15px;
+    padding: 10px;
 }
 .article-btn h2{
     background-color: transparent;
-    padding: 4px;
+    padding: 8px;
+    font-size: 15px;
 }
 /* Logo Row */
 .logo-row{
     width: 80%;
     display: flex;
-    margin-top: 150px;
+    margin-top: 250px;
     margin-left: 100px;
     align-items: center;
     justify-content: space-around;
@@ -150,6 +154,7 @@ p{
 .specs-card-img img{
     height: 60px;
     width: 200px;
+    padding-bottom: 40px;
 }
 
 .specs{
@@ -169,6 +174,7 @@ p{
 .specs-info{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .specs-info img{
@@ -191,15 +197,20 @@ p{
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
 }
 
 .case-card-img{
     height: 60px;
-    width: 200px;
+    width: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .case img{
     height: 350px;
+    /* padding-left: 40px; */
 }
 
 .case{
@@ -210,37 +221,64 @@ p{
     color: white;
 }
 
+.case-info{
+    line-height: 25px;
+    padding-left: 40px;
+    
+}
 .right-case{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    
+}
+
+.case-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(40, 38, 38);
+    height: 40px;
+    border-radius: 10px;
+    width: 120px;
+    margin-left: 40px;
+    padding-left: 20px;
+
+}
+
+.case-btn img{
+    height: 20px;
+    /* width: 20px; */
+    background-color: transparent;
+}
+
+.case-btn p{
+    background-color: transparent;
+    font-size: 15px;
+    /* width: 20px; */
+    padding-right: 15px;
 }
 
 /* Buy Now */
 
 .buy-now{
-    width: 100%;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
-}
-.buy-now div{
-    display: flex;
-    /* align-items: start; */
-    /* justify-content: center; */
-    margin-top: 40px;
+    margin-top: 80px;
+    margin-left: 257px;
+    margin-bottom: 80px;
     background-color: rgb(51, 48, 48);
-    width: 50%;
-    /* margin-left: 40px; */
+    width: 60%;
     border-radius: 15px;
 }
 
 .buy-info{
     display: flex;
     flex-direction: column;
-    /* text-align: start; */
-    width: 40%;
-    background-color: rgb(32, 31, 31);
+    gap: 20px;
+    padding-top: 70px;
+    background-color: transparent;
     padding-left: 100px;
     color: white;
 }
@@ -251,18 +289,31 @@ p{
 
 .buy-info p{
     background-color: transparent;
+    padding: 5px;
 }
 
-
+.buy-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+}
 
 .buy-pic{
     width: 40%;
+    background-color: transparent;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 .buy-pic img{
     background-color: transparent;
-    height: 160px;
-    width: 220px;
+    height: 200px;
+    width: 280px;
+    padding-top: 10px;
     margin-right: 90px;
     margin-bottom: 40px;
 }
@@ -356,46 +407,41 @@ p{
 footer{
     display: flex;
     align-items: start;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     height: 300px;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
-.foot-logo{
-    width: 25%;
+.foot-in{
+    width: 60%;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
-   padding-top: 25px;
 }
+
 footer div img{
-    height: 40px;
-    width: 40px;
+    height: 25px;
+    width: 25px;
 }
 
 .footdiv2{
-    width: 10%;
+    width: 150px;
     height: 200px;
     display: flex;
     flex-direction: column;
-    padding-left: 200px;
-    align-items: start;
-    justify-content: center;
+    padding-left: 150px;
     gap: 5px;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .footdiv3{
-    width: 20%;
+    width: 150px;
     height: 200px;
     display: flex;
     flex-direction: column;
-    padding-left: 200px;
-    align-items: start;
-    justify-content: center;
+    padding-left: 150px;
+    position: relative;
     gap: 5px;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .footdiv2 h3{
@@ -405,12 +451,7 @@ footer div img{
 .footdiv2 h4{
     color: white;
 }
-/* .footdiv2 ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-} */
+
 
 .footdiv3 h3{
     color: white;
@@ -421,21 +462,15 @@ footer div img{
     color: white;
 }
 
-/* .footdiv3 ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-} */
-
 .footdiv4{
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding-top: 25px;
+    padding-left: 150px;
   }
-  
-  .footdiv4 div:first-child{
+
+  .foot-subs{
     background: #181A1B;
     border-radius: 8px;
     padding: 5px 10px;
@@ -446,8 +481,9 @@ footer div img{
     border: none;
     background-color: transparent;
     font-size: 20px;
-    width: 200px;
+    width: 120px;
   }
+
   
   .subscribe-button{
     background: #0A0A0B;
@@ -463,63 +499,15 @@ footer div img{
     font-size: 20px;
     color: white;
   }
-  
-  .footer-subscription div:last-child img{
-    margin-right: 10px;
-    scale: 0.8;
-  }
-/* .footdiv4{
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    padding-top: 28px;
-}
 
-.footdiv4 div span{
-    color: white;
-    background-color: transparent;
-} */
-
-/* .email-sus{
-    height: 25px;
-    background-color: #1f1f20;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-
-.email-sus div{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-right: 10px;
-    width: 150px;
-    height: 30px;
-    border-radius: 8px;
-    background-color: transparent;
-} */
-
-/* .foot-social{
-    display: flex;
-    align-items: start;
-    justify-content: space-around;
-}
-
-.foot-social img{
-    margin-top: 10px;
-    height: 30px;
-    width: 30px;
-} */
 
 
 .uparrow{
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: flex-end;
     width: 20%;
-    padding-right: 20px;
-    padding-top: 25px;
+    padding-left: 90px;
     background-color: transparent;
 }
 
