@@ -6,6 +6,7 @@
     background: #0f0f10;
   font-family: "Poppins", sans-serif;
   color: #ffffff;
+  /* box-sizing: border-box; */
 }
 
                                 /* Top Section  */
@@ -408,7 +409,7 @@ footer{
     display: flex;
     align-items: start;
     justify-content: center;
-    width: 100%;
+    width: 90%;
     height: 300px;
     margin-top: 80px;
 }
@@ -428,9 +429,9 @@ footer div img{
     height: 200px;
     display: flex;
     flex-direction: column;
-    padding-left: 150px;
+    padding-left: 140px;
     gap: 5px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .footdiv3{
@@ -438,10 +439,9 @@ footer div img{
     height: 200px;
     display: flex;
     flex-direction: column;
-    padding-left: 150px;
-    position: relative;
+    padding-left: 120px;
     gap: 5px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .footdiv2 h3{
@@ -450,12 +450,14 @@ footer div img{
 }
 .footdiv2 h4{
     color: white;
+   
 }
 
 
 .footdiv3 h3{
     color: white;
     padding-bottom: 8px;
+    width: 80px;
 }
 
 .footdiv3 h4{
@@ -467,7 +469,7 @@ footer div img{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding-left: 150px;
+    padding-left: 120px;
   }
 
   .foot-subs{
@@ -481,14 +483,14 @@ footer div img{
     border: none;
     background-color: transparent;
     font-size: 20px;
-    width: 120px;
+    width: 110px;
   }
 
   
   .subscribe-button{
     background: #0A0A0B;
     border-radius: 8px;
-    padding: 5px 10px;
+    padding: 4px 8px;
     border: none;
     display: flex;
     align-items: center;
