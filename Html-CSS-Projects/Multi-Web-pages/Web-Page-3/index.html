@@ -4,31 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- CSS Link  -->
     <link rel="stylesheet" href="./style.css">
-    <!-- Font  -->
 
+    <!-- Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    
     <title>Website-with-multiple-pages</title>
 </head>
 <body>
 
-    <div class="bg"> </div>
+    <!-- <div class="bg"> </div> -->
     <!-- Header  -->
     <header>
-        <div class="logo"><img src="./assets/logo.png" alt="logo"></div>
+        <div class="logo"><img src="/assets/logo.png" alt="logo"></div>
         <nav>
             <ul>
-                <li> <a href="./index.html">Home</a> </li>
-                <li><a href="./about-page/about.html">About</a> </li>
-                <li> <a href="./contact-page/contact.html">Contact us</a> </li>
+                <li> <a href="/index.html">Home</a> </li>
+                <li><a href="/about-page/about.html">About</a> </li>
+                <li> <a href="/contact-page/contact.html">Contact us</a> </li>
              </ul>
         </nav>
     </header>
 
     <!-- Main Section  -->
-    <section>
+    <main>
         <!-- Left Section Article -->
-        <article>
+        <section>
             <div class="article">
                 <div class="image"> <img src="./assets/topAngle.png" alt="top-angle"></div>
                 
@@ -39,9 +47,9 @@
             <div class="appo-btn">
                 <button>Make Appointment</button>
                 <img src="./assets/bottomAngle.png" alt="bottom-angle">
-                <img class="stethoscope" src="./assets/stethoscope.png" alt="stethoscope">
+                <!-- <img class="bg-pic" src="./assets/stethoscope.png" alt="stethoscope"> -->
             </div>
-        </article>
+        </section>
          
         <!-- Right Section  -->
         <aside>
@@ -53,8 +61,8 @@
                 <img src="./assets/doctor.png" alt="Doctor image">
             </div>
             
-        </aside>
-    </section>
+            </aside>
+    </main>
 
 </body>
 </html>
