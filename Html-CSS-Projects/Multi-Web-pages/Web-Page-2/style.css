@@ -133,11 +133,14 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .card-heading{
     /* border: solid rebeccapurple 2px; */
-    height: 220px;
+    /* height: 200px; */
+    margin-top: 25px;
+    margin-bottom: -55px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -148,6 +151,113 @@ nav{
 .card-heading h1{
     font-size: 60px;
 }
+
+/* All cards */
+
+.all-card{
+    width: 100%;
+    height: 300vh;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-set{
+    display: flex;
+    width: 95%;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img{
+    width: 100%;
+    height: 360px;
+    border-radius: 25px;
+}
+
+.card-info{
+    /* width: 90%; */
+    width: 280px;
+    height: 80px;
+    background-color: white;
+    /* border: solid red 2px; */
+    position: absolute;
+    margin-top: 300px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.card-info div{
+    padding-left: 10px;
+
+    line-height: 25px;
+    font-weight: 900;
+}
+
+.card-info button{
+    background-color: blue;
+    border: none;
+    padding: 5px;
+    width: 90px;
+    height: 35px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.card2{
+   margin-top: 60px;
+}
+
+.card3{
+    margin-top: 120px;
+}
+
+.card4{
+    margin-top: 190px;
+}
+
+.card5{
+    margin-top: 110px;
+}
+
+.card6{
+    margin-top: 40px;
+}
+
+.card7{
+    margin-top: 100px;
+}
+
+.card8{
+    margin-top: 190px;
+}
+
+.card9{
+    margin-top: 280px;
+}
+
+
+
+
+
+
+
+
 
 
 
