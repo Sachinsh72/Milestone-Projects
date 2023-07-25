@@ -36,9 +36,18 @@
     <div class="container">
         <!-- heading  -->
         <h1 id="heading"> Click below button to change the text..! </h1>
-        <button>Click Me!</button>
+        <button onClick = "toggle()">Click Me!</button>
     </div>
 
-    <script src="./script.js"></script>
+    <script>
+        function toggle(){
+            var x = document.getElementById("heading");
+            if(x.innerText === "Text successfully changed."){
+            x.innerText = "Click below button to change the text..!"
+            }else{
+                x.innerText = "Text successfully changed."
+            }
+        }
+    </script>
 </body>
 </html>
