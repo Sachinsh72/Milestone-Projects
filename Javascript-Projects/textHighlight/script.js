@@ -1,21 +1,21 @@
-const highLight = document.getElementById("highLight");
+//to search the input text 
 const para = document.getElementById("para");
-const search = document.getElementById("search")
+const search = document.getElementById("search");
+
+search.addEventListener("click", ()=>{
+    let input = document.getElementById("input").value;
+
+    if(input !== ""){
+        let regExp = new RegExp(input, 'gi');
+        para.innerHTML = para.textContent.replace(regExp, "<span>$&</span>")
+    }
+})
+
+// to highlight the character greater than 8 
+const highLight = document.getElementById("highLight");
 
 highLight.addEventListener("click",()=>{
-    const word = para.innerText.split(' ');
-    // console.log(word);
-
-    for (let i = 0; i < word.length; i++) {
-        if (word[i].length > 8) {
-            // const highLightWord = document.createElement("span");
-            const highLightWord = word[i]
-            // highLightWord.classList.add("lightword");
-            // highLightWord.innerHTML = word[i];
-            highLightWord.style.backgroundColor = "yellow";
-            // word[i] = highLightWord.innerHTMLHTML;
-            // word[i].outerHTML = highLightWord
-        }
-    }
-    para.innerText = word.join(' ');
-})
+    para.innerHTML = para.innerText.split(' ').map(word=>{
+        return word.length > 8 ? `<span style = 'background-color: yellow'>${word}</span>`:word
+    }).join(' ');
+});
