@@ -33,6 +33,7 @@ Install the liver extension in VScode and start the server.
 
 Before starting the server please ensure file should be HTML file.
 
+---
 #### 2. Javascript-Projects
 For the javscript 
 requires Vscode.
@@ -41,6 +42,7 @@ Start the server.
 
 Before starting the server please ensure file should be HTML file.
 
+---
 #### 3. Backend-projects 
 For the backend 
 requires Node.js to run in VScode.
@@ -63,32 +65,32 @@ Mostly projects are deployed on netlify.com. Click on respective link to redirec
 
 This folder consider the multiple front/landing page code in HTML/CSS and one of the project Apple Store India in Tailwind CSS.
 
-- [Realstate landing page](rialestate.netlify.app)
-- [Tailwind apple store landing page](applestoreindia.netlify.app)
-- [Headphone landing page](beatshomepage.netlify.app)
-- [Simple responsive page](singleresponsivewebpage.netlify.app)
-- [Multi web pages](websitemultipage.netlify.app)
-- [Front page](frontpagehtmlcss.netlify.app )
-- [Resturant front page](simpleresturantpage.netlify.app)
-- [Simple index page](simpleindexpage.netlify.app)
+- <a href="http://rialestate.netlify.app" target="_blank">Realstate landing page</a>
+- <a href="http://applestoreindia.netlify.app" target="_blank">Tailwind apple store landing page</a>
+- <a href="http://beatshomepage.netlify.app" target="_blank">Headphone landing page</a>
+- <a href="http://singleresponsivewebpage.netlify.app" target="_blank">Simple responsive page</a>
+- <a href="http://websitemultipage.netlify.app" target="_blank">Multi web pages</a>
+- <a href="http://frontpagehtmlcss.netlify.app" target="_blank">Front page</a>
+- <a href="http://simpleresturantpage.netlify.app" target="_blank">Resturant front page</a>
+- <a href="http://simpleindexpage.netlify.app" target="_blank">Simple index page</a>
 - Time table
 
 ---
 #### 2. Javascript-Projects 
 This folder consider the multiple javscript projects.
 
-- [Todo list](addlistitem-app.netlify.app)
-- [Progress bar](progressbarattop.netlify.app)
-- [Accordian](sachinaccordian.netlify.app)
-- [Image carousel](imagecarouselproject.netlify.app)
-- [text search and highlight](texthighlightandsearch.netlify.app)
-- [Color changer-1](kalarchanger.netlify.app)
-- [Color changer-2](kalarchanger2.netlify.app)
-- [Counter application](counter-applicasion.netlify.app)
-- [Change text button](changetextbybutton.netlify.app)
+- <a href="http://addlistitem-app.netlify.app" target="_blank">Todo list</a>
+- <a href="http://progressbarattop.netlify.app" target="_blank">Progress bar</a>
+- <a href="http://sachinaccordian.netlify.app" target="_blank">Accordian</a>
+- <a href="http://texthighlightandsearch.netlify.app" target="_blank">Text search and highlight</a>
+- <a href="http://kalarchanger.netlify.app" target="_blank">Color changer-1</a>
+- <a href="http://counter-applicasion.netlify.app" target="_blank">Counter application</a>
+- <a href="http://imagecarouselproject.netlify.app" target="_blank">Image carousel</a>
+- <a href="http://changetextbybutton.netlify.app" target="_blank">Change text button</a>
+- <a href="http://kalarchanger2.netlify.app" target="_blank">Color changer-2</a>
 
-
-#### #. Backend-projects 
+---
+#### 3. Backend-projects 
 - JWT authentication
 - User management backend
 - ideaApp
