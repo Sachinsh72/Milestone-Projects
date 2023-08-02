@@ -8,14 +8,18 @@
 </head>
 <body>
     <main>
-        <form action="none" id="form">
-            <label for="Email">Email</label>
-            <input type="email" name="Email" id="email">
-            <label for="Password">Password</label>
-            <input type="password" name="Password" id="password">
-            <button type="submit" >Submit</button>
-            <!-- <input type="submit" value="Submit"> -->
+        <h1>Validate password</h1>
+        <form id="login-form">
+            <label for="email">Email</label>
+            <input type="text" id="email">
+            <label for="password">Password</label>
+            <input type="password"  id="password">
+            <button type="submit" id="submit">Submit</button>
         </form>
+        <div class="message">
+            <p id="err-message"> Invalid email or password!</p>
+            <p id="valid-message">Valid email and password!</p>
+        </div>
     </main>
 
     <script src="./script.js"></script>
