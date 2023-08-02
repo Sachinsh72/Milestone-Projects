@@ -1,17 +1,19 @@
-const Email =  document.getElementById("email").value;
-const Password = document.getElementById("password").value;
-const Submit = document.getElementById("login-form");
-const errMessage = document.getElementById("err-message");
-const validMessage = document.getElementById("valid-message")
+//pick the form
+const submit = document.getElementById("login-form");
 
-const pattern = "(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}";
-Submit.addEventListener("submit",(pre)=>{
-    pre.preventDefault();
-    if(Email.indexOf("@") == -1 || Password.length < 8){
+//after submitting
+submit.addEventListener("submit",(event)=>{
+    event.preventDefault();
+    const email =  document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+    const errMessage = document.getElementById("err-message");
+    const validMessage = document.getElementById("valid-message");
+
+    if(email.indexOf("@") === -1 || password.length < 8){
         errMessage.style.display = "block";
         validMessage.style.display = "none"
     }else{
         errMessage.style.display = "none";
         validMessage.style.display = "block"
     }
-})
+});

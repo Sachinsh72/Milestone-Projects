@@ -3,25 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS link  -->
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <!-- title  -->
+    <title>Validate-Password</title>
 </head>
 <body>
+    <!-- main section  -->
     <main>
+        <!-- outer heading  -->
         <h1>Validate password</h1>
+        <!-- form  -->
         <form id="login-form">
+            <!-- email  -->
             <label for="email">Email</label>
             <input type="text" id="email">
+            <!-- passsword  -->
             <label for="password">Password</label>
             <input type="password"  id="password">
-            <button type="submit" id="submit">Submit</button>
+            <!-- submit button  -->
+            <button id="submit">Submit</button>
         </form>
+        <!-- outer message  -->
         <div class="message">
+            <!-- error message  -->
             <p id="err-message"> Invalid email or password!</p>
+            <!-- valid message  -->
             <p id="valid-message">Valid email and password!</p>
         </div>
     </main>
 
+    <!-- js script  -->
     <script src="./script.js"></script>
 </body>
 </html>
