@@ -9,7 +9,7 @@ This repo contains code of different small projects respectively.
 * Great understanding of thier logics behind the scene.
 * How to manage code in structure way.
 
-## How is the code organized in this repo ?
+## How is the code organized in this repo?
 The whole repo is divided into multiple folders. Each folder contains code for a specific domain/technology. For example Javascript has the code base for multiple projects. Each folder is independent from the previous folder.
 
 ## Prerequisite
@@ -80,6 +80,7 @@ This folder consider the multiple front/landing page code in HTML/CSS and one of
 This folder consider the multiple javscript projects.
 
 - <a href="http://addlistitem-app.netlify.app" target="_blank">Todo list</a>
+- <a href="https://validateemailpassword.netlify.app" target="_blank">Validate password</a>
 - <a href="http://progressbarattop.netlify.app" target="_blank">Progress bar</a>
 - <a href="http://sachinaccordian.netlify.app" target="_blank">Accordian</a>
 - <a href="http://texthighlightandsearch.netlify.app" target="_blank">Text search and highlight</a>
@@ -97,5 +98,3 @@ This folder consider the multiple javscript projects.
 
 ## Development
 Want to contribute? Great! Make the changes and reach out to me over sachinsharma.7thfeb@gmail.com
-
-
