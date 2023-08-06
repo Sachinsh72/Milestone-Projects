@@ -1,0 +1,8 @@
+#cartoon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(0deg);
+    transition: 0.2s;
+    height: 100px;
+}
