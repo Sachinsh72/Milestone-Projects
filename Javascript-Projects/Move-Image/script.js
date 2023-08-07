@@ -1,4 +1,4 @@
-const moveCarton = document.getElementById("cartoon");
+const moveCarton = document.getElementById("image");
 let x = 0;
 let y = 0;
 const speed = 10;
@@ -10,26 +10,30 @@ const windowHeight = window.innerHeight;
 document.addEventListener("keydown",(e) =>{
     if(e.key == "ArrowUp"){
         y -= speed;
-        if(y <= -windowHeight){
-            y = windowHeight;
+        // console.log(y);
+        if(y <= -windowHeight/2){
+            y = windowHeight/2;
         }
     }else if(e.key == "ArrowDown"){
         y += speed;
-        if(y >= windowHeight){
-            y = -windowHeight;
+        // console.log(y);
+        if(y >= windowHeight/2){
+            y = -windowHeight/2;
         }
     }else if(e.key == "ArrowRight"){
         x += speed;
-        if(x >= windowWidth){
-            x = -windowWidth;
+        // console.log(x);
+        if(x >= windowWidth/2){
+            x = -windowWidth/2;
         }
     }else if(e.key == "ArrowLeft"){
         x -= speed;
-        if(x <= -windowWidth){
-            y = windowWidth;
+        // console.log(x);
+        if(x <= -windowWidth/2){
+            x = windowWidth/2;
         }
     }
 
-    cartoon.style.transform = `translate(${x}px, ${y}px)`;
+    image.style.transform = `translate(${x}px, ${y}px)`;
 
 })
