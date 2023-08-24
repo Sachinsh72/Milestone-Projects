@@ -35,9 +35,11 @@ Mostly projects are deployed on netlify.com. Click on respective link to redirec
 This folder consider the multiple javscript projects.
 
 - <a href="http://addlistitem-app.netlify.app" target="_blank">Todo list</a>
+- <a href="https://dynamicaddlistitems.netlify.app" target="_blank">Dynamic addinging list items</a>
 - <a href="https://validateemailpassword.netlify.app" target="_blank">Validate password</a>
 - <a href="http://progressbarattop.netlify.app" target="_blank">Progress bar</a>
 - <a href="http://sachinaccordian.netlify.app" target="_blank">Accordian</a>
+- <a href="https://movimage.netlify.app" target="_blank">Move image</a>
 - <a href="http://texthighlightandsearch.netlify.app" target="_blank">Text search and highlight</a>
 - <a href="http://kalarchanger.netlify.app" target="_blank">Color changer-1</a>
 - <a href="http://counter-applicasion.netlify.app" target="_blank">Counter application</a>
